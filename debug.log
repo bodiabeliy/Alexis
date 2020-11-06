@@ -7,3 +7,5 @@
 [1105/131138.766:ERROR:exception_snapshot_win.cc(99)] thread ID 9908 not found in process
 [1105/153545.311:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1105/203408.626:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1106/085509.342:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1106/151455.891:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
