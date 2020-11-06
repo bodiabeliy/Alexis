@@ -6,6 +6,7 @@ body {
  background:#fff;
 }
 nav {
+ display: flex;
  justify-content: flex-end;
 }
 .navigation {
@@ -250,8 +251,7 @@ margin-right: 12.5px;
 }
 
 .gallery-items {
- width: 370px;
- height: 298px;
+
  background-color: rgb(255, 255, 255);
  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
  margin-left: 7.5px;
