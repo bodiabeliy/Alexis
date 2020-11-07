@@ -1,4 +1,4 @@
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 620px) {
   body {
     width: 1920px;
     font-family: 'Libre Baskerville';
@@ -134,7 +134,7 @@
    
    .focus{
     width: 100%;
-    height: 825px;
+    height: 1225px;
     background: #f7f7f7;
     /* padding-top: 10px; */
    }
@@ -148,12 +148,8 @@
    }
    .cards {
     display: flex;
-    padding-left: 170px;
     flex-direction: row;
     padding-bottom: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 800px;
    }
    
    .item {
@@ -210,14 +206,14 @@
     height: 460px;
     background: #3f4049;
     padding-bottom: 20px;
-    margin-top: 209px;
+    margin: 0;
    }
    
    .play-center {
     font-family: "Poppins";
     color: white;
     text-align: center;
-    font-size: 30px;
+    /* font-size: 30px; */
     padding-top: 113px;
     padding-right: 19px;
    }
@@ -254,13 +250,10 @@
     flex-wrap: wrap;
     padding-top: 90px;
     padding-bottom: 150px;
-    flex-direction: column;
-    height: 1000px;
    }
    
    .gallery-items {
-    width: 300px;
-    height: 298px;
+   
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
     margin-left: 7.5px;
@@ -270,10 +263,11 @@
    
    .team {
     width: 100%;
-    height: 1225px;
+    height: 1385px;
     background-color: rgb(247, 247, 247);
     display: flex;
     justify-content: center;
+    padding-bottom: 150px;
    }
    
    .header04 {
@@ -387,27 +381,48 @@
    }
    
    .diagram {
-    margin-top: 290px;
     width: 100%;
     height: 465px;
     background-image: url('images/background.png');
+    margin: 0;
    }
    
    .stats {
-    padding-top: 15%;
+    padding-top: 12%;
     padding-left: 70px;
    }
 }
 
 
-@media screen and (max-width: 770px) {
-  .item {
-    width: 100%;
-    height: 298px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
-    margin-left: 7.5px;
-    margin-right: 7.5px;
-    margin-bottom: 7.5px;
-   }
+@media screen and (max-width: 767px) {
+  .wid{
+     width: 80%;
+  }
+  .gallery {
+    padding-left: 25%;
+  }
+  .team {
+    margin-top: 216%;  
+  }
+  .teams {
+    flex-wrap: wrap;
+  }
+
+  .c {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hide {
+    display: none;
+  }
+  .gallery {
+    padding-left: 15%;
+  }
+  .c {
+    display: flex;
+    flex-direction: column;
+  }
 }
