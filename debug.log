@@ -12,3 +12,5 @@
 [1106/190843.340:ERROR:process_info.cc(359)] UncheckedAllocate
 [1106/224746.014:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1109/160630.649:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1109/182054.586:ERROR:process_info.cc(359)] UncheckedAllocate
+[1109/182514.149:ERROR:process_info.cc(359)] UncheckedAllocate
