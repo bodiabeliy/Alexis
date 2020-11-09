@@ -2,7 +2,12 @@
   .navigation {
     width: 80%;
   }
-  
+  .hover_effects:hover {
+    transition: 2s;
+    background: #1ad;
+    height: 100%;
+    opacity: 1;
+   }
   .hidden{
     display: none;
   }
